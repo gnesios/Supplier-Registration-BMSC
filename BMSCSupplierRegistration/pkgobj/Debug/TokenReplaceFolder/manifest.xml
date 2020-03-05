@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="de332e1d-2589-4800-b011-307ea34dee99" SharePointProductVersion="15.0">
+  <Assemblies>
+    <Assembly Location="BMSCSupplierRegistration.dll" DeploymentTarget="GlobalAssemblyCache">
+      <SafeControls>
+        <SafeControl Assembly="BMSCSupplierRegistration, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e2abc8d62ca535cb" Namespace="BMSCSupplierRegistration.WPRegistrationForm" TypeName="*" />
+        <SafeControl Assembly="BMSCSupplierRegistration, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e2abc8d62ca535cb" Namespace="BMSCSupplierRegistration.WPSearchForm" TypeName="*" />
+      </SafeControls>
+    </Assembly>
+  </Assemblies>
+  <TemplateFiles>
+    <TemplateFile Location="CONTROLTEMPLATES\BMSCSupplierRegistration\WPRegistrationForm\WPRegistrationFormUserControl.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\BMSCSupplierRegistration\WPSearchForm\WPSearchFormUserControl.ascx" />
+  </TemplateFiles>
+  <FeatureManifests>
+    <FeatureManifest Location="BMSCSupplierRegistration_Feature1\Feature.xml" />
+  </FeatureManifests>
+</Solution>

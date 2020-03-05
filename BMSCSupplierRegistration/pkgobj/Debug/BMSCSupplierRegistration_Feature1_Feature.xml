@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Description="Solución que permite el 'registro de proveedores' y 'publicación de convocatorias'." Id="5427a00e-25af-4d0e-bd1c-86d36536da18" Scope="Site" Title="BMSC Registro de Proveedores">
+  <ElementManifests>
+    <ElementManifest Location="WPRegistrationForm\Elements.xml" />
+    <ElementFile Location="WPRegistrationForm\WPRegistrationForm.webpart" />
+    <ElementManifest Location="WPSearchForm\Elements.xml" />
+    <ElementFile Location="WPSearchForm\WPSearchForm.webpart" />
+  </ElementManifests>
+</Feature>

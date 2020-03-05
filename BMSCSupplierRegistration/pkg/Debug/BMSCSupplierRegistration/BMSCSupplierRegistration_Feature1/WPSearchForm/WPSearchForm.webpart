@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<webParts>
+  <webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
+    <metaData>
+      <type name="BMSCSupplierRegistration.WPSearchForm.WPSearchForm, BMSCSupplierRegistration, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e2abc8d62ca535cb" />
+      <importErrorMessage>$Resources:core,ImportErrorMessage;</importErrorMessage>
+    </metaData>
+    <data>
+      <properties>
+        <property name="Title" type="string">Proveedores - Formulario de solicitud de información</property>
+        <property name="Description" type="string">Formulario de solicitud de información</property>
+      </properties>
+    </data>
+  </webPart>
+</webParts>
